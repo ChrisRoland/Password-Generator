@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3b3b98;
+    color: white;
+    font-family: "Muli", sans-serif;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h2 {
+    margin: 10px 0 20px;
+    text-align: center;
+}
+  
+.container {
+    background-color: #23235b;
+    padding: 20px;
+    width: 350px;
+    max-width: 100%;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2);
+}
+
+.result-container {
+    background-color: #00000066;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+    height: 50px;
+    width: 100%;
+}
+
+.result-container .btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#result {
+    word-wrap: break-word;
+    max-width: calc(100% - 40px);
+}
+
+.btn {
+    border: none;
+    background-color: #3b3b98;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn-large {
+    display: block;
+    width: 100%;
+}
+
+.setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
