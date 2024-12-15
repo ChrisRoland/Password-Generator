@@ -52,6 +52,11 @@ h2 {
     width: 40px;
     height: 40px;
     font-size: 20px;
+    transition: 0.3s ease;
+}
+.result-container .btn:hover {
+    background-color: #ffffff3f;
+    transform: scale(1.05);
 }
 
 #result {
@@ -72,6 +77,12 @@ h2 {
 .btn-large {
     display: block;
     width: 100%;
+    transition: 0.3s ease;
+}
+
+.btn-large:hover {
+    background-color: #ffffff3f;
+    transform: scale(1.02);
 }
 
 .setting {
